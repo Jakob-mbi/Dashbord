@@ -25,16 +25,20 @@ body{
 }
 
 #DateTime{
-  margin-bottom: 30%;
+  margin-bottom: 10%;
 }
 
 .card-hight{
   height: 300px;
 }
 
+.time-date-with{
+  max-width: 200px;
+}
 
 
-@media screen and (max-width: 575px) {
+
+@media screen and (max-width: 767px) {
   .col-sm{
     width: 150px;
   }
