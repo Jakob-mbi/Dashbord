@@ -29,7 +29,7 @@
               <div class="card bg-card-gray">
                 <div class="card-body card-hight">
                   <h5 class="card-title text-center">Snabblänkar</h5>
-                  <div id="links" class="h-75">
+                  <div id="links" class="h-75 overflow-auto">
                     <div class="p-1 rounded bg-light opacity-50 d-flex justify-content-between">
                       <a href="google.com" class="link-offset-2 link-underline link-underline-opacity-0 text-dark">
                         <img src="add.svg" alt="icon" class="d-inline"> 
@@ -56,9 +56,10 @@
             <div class="col-sm-3">
               <div class="card bg-card-gray">
                 <div class="card-body card-hight">
-                  <h5 class="card-title text-center">[...]</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title text-center">Röda Dagar</h5>
+                  <div class="h-75 overflow-auto" id="PublicHolidays">
                   
+                  </div>
                 </div>
               </div>
             </div>
@@ -66,7 +67,7 @@
               <div class="card bg-card-gray">
                 <div class="card-body card-hight">
                   <h5 class="card-title text-center">Anteckningar</h5>
-                  <div class="bg-light border rounded h-75 p-1 opacity-50" id="notes" contenteditable="true">
+                  <div class="bg-light border rounded h-75 p-1 opacity-50 overflow-auto" id="notes" contenteditable="true">
 
                   </div>
                   
@@ -89,7 +90,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form>
+            <form id="saveUrl">
               <div class="mb-3">
                 <label for="name" class="form-label">Namn</label>
                 <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
@@ -107,6 +108,7 @@
         </div>
       </div>
     </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script type="module" src="/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
