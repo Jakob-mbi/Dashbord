@@ -1,5 +1,5 @@
 import {updateTime} from "/timeAndDate.js";
-import {title} from "/savePageTitle.js";
+import {title} from "/saveEdit.js";
 
 const clock = document.querySelector('#time');
 const dates = document.querySelector('#date');
