@@ -1,7 +1,7 @@
 
 
 
-export const title =(editables)=>{
+export const edit =(editables)=>{
 
     // save edits
     editables.forEach(el => {
