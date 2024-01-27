@@ -1,6 +1,6 @@
+const publicHoliday = document.querySelector("#PublicHolidays");
 
-
-export const publicHolidays =(publicHoliday)=>{
+export default function publicHolidays(){
 
     let year = new Date();
     axios.get(`https://date.nager.at/api/v3/PublicHolidays/${year.getFullYear()}/SE`)

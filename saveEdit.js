@@ -1,7 +1,7 @@
+const editables = document.querySelectorAll("[contenteditable]");
 
 
-
-export const edit =(editables)=>{
+export default function edit(){
 
     // save edits
     editables.forEach(el => {
