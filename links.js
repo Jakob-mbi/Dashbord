@@ -20,12 +20,7 @@ export default function saveLink(){
         })
     }
     
-    // const removeLink=((id)=>{
-    //     let old_data = JSON.parse(localStorage.getItem('links'));
-    //     old_data.splice(id,1);
-    //     localStorage.setItem('links',JSON.stringify(old_data));
-    //     displayLinkList();
-    // });
+
 
     const displayLinkList = ()=>{
         addArraytoStorage();
@@ -39,7 +34,7 @@ export default function saveLink(){
                 <img src="https://www.google.com/s2/favicons?domain=${data.url}&sz=32" alt="icon" class="d-inline"> 
                 <p class="ml-1 d-inline text-capitalize fw-medium">${data.name}</p>
                 </a>
-                <button class="btn btn-outline-light p-0 opacity-50" id="btn-${old_data.indexOf(data)}"><img src="/remove.svg" alt=""></button>
+                <button class="btn btn-outline-light p-0 opacity-50" id="btn-${old_data.indexOf(data)}"><img src="/Assets/remove.svg" alt=""></button>
             </div>
           `
           removeListener(old_data.indexOf(data));
@@ -63,26 +58,8 @@ export default function saveLink(){
         displayLinkList();
     });
 
-    // removeBtn.forEach(btn =>{
-    //     btn.addEventListener("click",()=>{
-    //     let old_data = JSON.parse(localStorage.getItem('links'));
-    //     old_data.splice(btn.value,1);
-    //     localStorage.setItem('links',JSON.stringify(old_data));
-    //     displayLinkList();
-    //     })
-    // })
-
-    // const removeListener =(btn)=>{
-    //     const removebtn = document.querySelector(`#btn-${btn}`);
-    //     removebtn.addEventListener("click",()=>{
-    //         let old_data = JSON.parse(localStorage.getItem('links'));
-    //         old_data.splice(btn,1);
-    //         localStorage.setItem('links',JSON.stringify(old_data));
-    //         displayLinkList();
-    //     })
-    // }
+   
 }
 
 
 
-// onclick="()=>{removeLink(${old_data.indexOf(data)})}"
