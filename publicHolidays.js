@@ -1,3 +1,4 @@
+import axios from "axios";
 const publicHoliday = document.querySelector("#PublicHolidays");
 
 export default function publicHolidays(){
@@ -5,7 +6,9 @@ export default function publicHolidays(){
     let year = new Date();
     axios.get(`https://date.nager.at/api/v3/PublicHolidays/${year.getFullYear()}/SE`)
     .then((res)=> holidays(res))
-    .catch((err)=> console.log(err))
+    .catch((err)=> console.log(err));
+
+
 
     const holidays = (data)=>{
         data.data.forEach((id)=>{
