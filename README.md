@@ -1,6 +1,6 @@
 # Dashbord
 
-    Denna applikation är en dashbord där anändaren har fler olika funktionaliteter.
+    Denna applikation är en dashbord där användaren har fler olika funktionaliteter.
 
 ## Funktionaliteter 
 
@@ -10,7 +10,7 @@
     - Väder
     - Lista med datum för röda dagar 
     - Editerbar anteckningar
-    - Möjlighet att slumpässigt ändra backgrunds bild  
+    - Möjlighet att slumpmässigt ändra bakgrundsbild   
 
 ## Teknologier
     - JavaScript
@@ -32,13 +32,13 @@
     den modulera strukturen gör det enklare att hålla reda på och fixa eventuella fel som kan uppstå. 
 
 ### Svagheter
-    Detta projekt har inte utgåt från någon specfik arkitetktur eller 
+    Detta projekt har inte utgått  från någon specifik arkitektur eller 
     design pattern vilket kan göra det svårare att sätta sig in i koden. 
     Projektet är dock inte särskilt stor vilket ändå gör det överkomligt.
 
-    Då en del grejer var nya för mig så var det huvedfokset snarare än att
-    exemplevis se till att variabler och fokunktioner hade meningsfulla namn. 
+    Då en del grejer var nya för mig så var det huvudfokuset snarare än att
+    exempelvis se till att variabler och funktioner hade meningsfulla namn. 
 
-    Fokuset har helt enkelt varit på att få applikationen at fungera snarare än att gör det 
+    Fokuset har helt enkelt varit på att få applikationen att fungera snarare än att gör det 
     enklare att underhålla projektet, det är dock inte ett problem då detta inte är ett långsiktigt projekt. 
-    Koden saknar bra dokumentaion både vad det gäller komentarer och självdokumenterande kod.
+    Koden saknar bra dokumentation både vad det gäller kommentarer och självdokumenterande kod.
