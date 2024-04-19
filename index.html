@@ -43,6 +43,11 @@
                   <h5 class="card-title text-center">Dagens Väder</h5>
                   <div id="weather" class="h-75 overflow-auto">
                   </div>
+                  <div class="d-flex justify-content-center">
+                    <input type="text" class="mt-2 col-4 rounded" placeholder="latitud" id="lat">
+                    <input type="text" class="mt-2 col-4 rounded" placeholder="longitud" id="long">    
+                    <button class="mt-2 col-3 rounded btn-color" id="btn-weather">Klicka</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -73,7 +78,11 @@
       
     </section>
     <section id="Bg-button-section" class="d-flex justify-content-center mt-5">
-      <button type="button" class="btn btn-secondary mt-5" id="bg-button"><img src="./Assets/Arrow clockwise.svg" alt="arrow"> Slumpa ny backgrund</button>
+      <input type="text" class="me-2 rounded mt-5 p-1" placeholder="Fylla i ett sökord" id="serchWord">
+      <button type="button" class="btn btn-secondary mt-5 inputHight" id="bg-button">
+        <img src="./Assets/Arrow clockwise.svg" alt="arrow"> Slumpa ny backgrund
+      </button>
+      
     </section>
     <div class="modal fade" id="urlModal" tabindex="-1" aria-labelledby="urlModalLabel" aria-hidden="true">
       <div class="modal-dialog">

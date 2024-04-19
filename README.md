@@ -2,6 +2,8 @@
 
     Denna applikation är en dashbord där användaren har fler olika funktionaliteter.
 
+    För att köra applikationen skriv "NPM run dev" i terminalen
+
 ## Funktionaliteter 
 
     - Tid och datum
@@ -24,6 +26,7 @@
 
     Api:et från unsplash kräver en api nyckel.
     Fetchen från unsplash finns i randomBg.js filen. 
+    const key ='';
 
 
 ### styrkor

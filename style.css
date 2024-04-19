@@ -38,6 +38,14 @@ body{
   max-width: 200px;
 }
 
+.btn-color{
+  font-weight: bold;
+}
+
+.btn-color:hover{
+  background-color: rgb(179, 178, 178);
+}
+
 
 
 @media screen and (max-width: 767px) {
